@@ -52,12 +52,10 @@
 	<build>
 		<plugins>
 			<plugin>
-			<!-- Your own application should inherit from spring-boot-starter-parent -->
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
-			<!-- Your own application should inherit from spring-boot-starter-parent -->
+			<plugin>			
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
 				<version>0.7.7.201606060606</version>
